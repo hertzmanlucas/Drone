@@ -33,6 +33,8 @@
 //  - Motorene er låst til spaken har stått i midten, så de ikke kan starte av
 //    seg selv. Mister vi signalet stopper alt med en gang og låses igjen.
 //  - Starter motoren når du drar spaken BAKOVER? Sett GASS_RETNING til -1.
+//  - Starter motorene på ulik gass? Kjør escKalibrering én gang, så alle
+//    fire ESC-kanalene får samme gassområde.
 // Serial Monitor (115200 baud) viser valgt motor, y og gass.
 
 #include <SPI.h>
